@@ -1,0 +1,21 @@
+{
+  "name": "casamento-api",
+  "version": "1.0.0",
+  "description": "API local do site de casamento",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env index.js",
+    "links": "node listar-links.js",
+    "importar-presentes": "node importar-presentes.js"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

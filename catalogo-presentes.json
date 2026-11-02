@@ -1,0 +1,17 @@
+[
+  { "nome": "Liquidificador", "descricao": "", "valorCentavos": 12000, "limiteEscolhas": 5 },
+  { "nome": "Sanduicheira elétrica", "descricao": "", "valorCentavos": 13000, "limiteEscolhas": 5 },
+  { "nome": "Cafeteira elétrica", "descricao": "", "valorCentavos": 15000, "limiteEscolhas": 5 },
+  { "nome": "Batedeira", "descricao": "", "valorCentavos": 18000, "limiteEscolhas": 5 },
+  { "nome": "Grill elétrico", "descricao": "", "valorCentavos": 22000, "limiteEscolhas": 5 },
+  { "nome": "Panela elétrica de arroz", "descricao": "", "valorCentavos": 25000, "limiteEscolhas": 5 },
+  { "nome": "Fritadeira Air Fryer", "descricao": "", "valorCentavos": 35000, "limiteEscolhas": 5 },
+  { "nome": "Aspirador de pó", "descricao": "", "valorCentavos": 35000, "limiteEscolhas": 5 },
+  { "nome": "Panela de pressão elétrica", "descricao": "", "valorCentavos": 45000, "limiteEscolhas": 5 },
+  { "nome": "Micro-ondas", "descricao": "", "valorCentavos": 55000, "limiteEscolhas": 5 },
+  { "nome": "Smart TV", "descricao": "", "valorCentavos": 150000, "limiteEscolhas": 5 },
+  { "nome": "Ar condicionado", "descricao": "", "valorCentavos": 180000, "limiteEscolhas": 5 },
+  { "nome": "Geladeira Electrolux duas portas", "descricao": "", "valorCentavos": 350000, "limiteEscolhas": 5 },
+  { "nome": "Lava-louças", "descricao": "", "valorCentavos": 250000, "limiteEscolhas": 5 },
+  { "nome": "Máquina lava e seca", "descricao": "", "valorCentavos": 400000, "limiteEscolhas": 5 }
+]

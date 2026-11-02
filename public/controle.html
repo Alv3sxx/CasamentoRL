@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Controle dos convites</title>
+  <style>
+    :root{font-family:Arial,sans-serif;color:#29332d;background:#f7f5ee}*{box-sizing:border-box}body{margin:0}.shell{width:min(960px,calc(100% - 32px));margin:48px auto}h1{margin:0;color:#334d40;font:400 clamp(30px,5vw,42px) Georgia,serif}p{line-height:1.6}.muted{color:#777f78}.panel{margin-top:24px;padding:24px;border:1px solid #d9ddd5;background:#fffefa}.login{max-width:480px}.field{display:grid;gap:8px;margin:18px 0;color:#334d40;font-size:14px}.field input,.invite-card input{min-height:42px;padding:9px 12px;border:1px solid #c9d2c7;border-radius:3px;font:inherit}.button{min-height:42px;padding:0 18px;border:0;border-radius:24px;color:white;background:#496b5b;font-weight:700;cursor:pointer}.button:disabled{opacity:.5;cursor:not-allowed}.button.secondary{color:#496b5b;border:1px solid #9cac9e;background:transparent}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px}.notice{min-height:24px;color:#496b5b}.notice.error{color:#8b3529}.invite-list{display:grid;gap:12px;margin-top:20px}.invite-card{display:grid;grid-template-columns:minmax(130px,1.2fr) minmax(180px,1fr) 130px minmax(240px,1.5fr);align-items:center;gap:14px;padding:16px;border:1px solid #d9ddd5;background:#fffefa}.invite-card span.label{display:block;margin-bottom:5px;color:#777f78;font-size:11px;text-transform:uppercase;letter-spacing:.08em}.invite-card strong{color:#334d40}.invite-card code{font-size:12px;overflow-wrap:anywhere}.status{font-size:13px}.action{display:flex;gap:8px}.action input{width:100%;min-width:0}.blocked{color:#777f78;font-size:12px;line-height:1.5}.empty{padding:24px;text-align:center;color:#777f78}.hidden{display:none!important}@media(max-width:760px){.shell{margin:28px auto}.panel{padding:18px}.invite-card{grid-template-columns:1fr 1fr}.action,.blocked{grid-column:1/-1}.toolbar{align-items:flex-start}.toolbar .button{flex:none}}@media(max-width:420px){.invite-card{grid-template-columns:1fr}.action,.blocked{grid-column:auto}.toolbar{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <p class="muted">Área administrativa</p>
+    <h1>Controle dos convites</h1>
+    <p class="muted">Consulte as respostas e reatribua códigos recusados a uma nova pessoa.</p>
+    <form id="login" class="panel login">
+      <label class="field" for="admin-token">Chave administrativa<input id="admin-token" type="password" autocomplete="current-password" required></label>
+      <button class="button" type="submit">Acessar</button>
+    </form>
+    <section id="dashboard" class="panel hidden" aria-live="polite">
+      <div class="toolbar"><div><h2>Lista de convites</h2><p class="muted">Um código só pode ser reatribuído quando a resposta for “não vou” e não houver pedido associado.</p></div><button class="button secondary" id="logout" type="button">Sair</button></div>
+      <p id="message" class="notice" role="status"></p>
+      <div id="invite-list" class="invite-list"></div>
+    </section>
+  </main>
+  <script src="/controle.js" defer></script>
+</body>
+</html>

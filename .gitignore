@@ -1,0 +1,9 @@
+node_modules/
+casamento.db
+casamento.db-shm
+casamento.db-wal
+backups/
+.env
+/deploy-data/casamento.db
+/deploy-data/casamento.db-shm
+/deploy-data/casamento.db-wal
