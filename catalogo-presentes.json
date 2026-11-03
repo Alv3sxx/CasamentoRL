@@ -1,5 +1,5 @@
 [
-  { "nome": "Liquidificador", "descricao": "", "valorCentavos": 12000, "limiteEscolhas": 5 },
+  { "nome": "Liquidificador", "descricao": "", "valorCentavos": 12000, "limiteEscolhas": 6 },
   { "nome": "Sanduicheira elétrica", "descricao": "", "valorCentavos": 13000, "limiteEscolhas": 5 },
   { "nome": "Cafeteira elétrica", "descricao": "", "valorCentavos": 15000, "limiteEscolhas": 5 },
   { "nome": "Batedeira", "descricao": "", "valorCentavos": 18000, "limiteEscolhas": 5 },
