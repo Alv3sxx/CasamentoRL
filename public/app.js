@@ -72,7 +72,7 @@ function weddingSections() {
       <p class="eyebrow">Reserve a data</p><h2>O grande dia</h2>
       <div class="date-stamp"><span>SÁBADO</span><strong>19</strong><span>DEZEMBRO</span></div>
       <div class="event-details">
-        <article class="event-detail"><span class="detail-icon">✧</span><h3>Recepção</h3><p class="pending">19h · Sal e Brasa — João Pessoa</p><span class="event-address">Av. Cabo Branco, 1830 - Cabo Branco<br>CEP 58045-010 · João Pessoa/PB</span><p class="event-note"><strong>Dress code</strong><br>Branco e verde</p><span class="detail-icon event-note-divider" aria-hidden="true">✧</span><p class="event-note">Preparamos tudo com carinho para compartilhar esse momento especial com você. O jantar será uma cortesia dos noivos. As bebidas serão de responsabilidade de cada convidado.</p></article>
+        <article class="event-detail"><span class="detail-icon">✧</span><h3>Recepção</h3><p class="pending">19h · Sal e Brasa — João Pessoa</p><span class="event-address">Av. Cabo Branco, 1830 - Cabo Branco<br>CEP 58045-010 · João Pessoa/PB</span><p class="event-note"><strong>Dress code</strong><br>Esporte Fino</p><span class="detail-icon event-note-divider" aria-hidden="true">✧</span><p class="event-note">Preparamos tudo com carinho para compartilhar esse momento especial com você. O jantar será uma cortesia dos noivos. As bebidas serão de responsabilidade de cada convidado.</p></article>
       </div>
     </section>
     <section class="gallery-section">
